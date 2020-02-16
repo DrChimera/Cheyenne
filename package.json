@@ -1,0 +1,18 @@
+{
+  "name": "cheyennelee",
+  "version": "1.0.0",
+  "description": "cheyennelee.me website",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css --recursive"
+  },
+  "keywords": [
+    "Cheyenne",
+    "Motivation"
+  ],
+  "author": "Cheyenne Lee",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^4.13.1"
+  }
+}
