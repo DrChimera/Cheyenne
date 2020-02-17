@@ -1,6 +1,7 @@
 @import "config";
 @import "utilities";
 @import "item_grid";
+@import url("https://fonts.googleapis.com/css?family=Kaushan+Script|Permanent+Marker&display=swap");
 
 // General Styles
 * {
@@ -9,7 +10,7 @@
 }
 
 body {
-  font-family: "Dosis", sans-serif;
+  font-family: "Kaushan Script", cursive;
   line-height: 1.6;
   background: #fff;
 }
@@ -35,9 +36,9 @@ img {
 
 // Logo
 #logo {
-  width: 70px;
-  height: 70px;
-  color: #fff;
+  width: 214px;
+  height: 72px;
+  color: rgb(129, 10, 10);
   text-transform: uppercase;
 }
 
@@ -49,6 +50,7 @@ img {
 
 // Main Nav
 #main-nav {
+  font-family: "Permanent Marker", cursive;
   display: flex;
   justify-content: space-between;
   padding-top: 1rem;
@@ -63,14 +65,14 @@ img {
 
   a {
     text-decoration: none;
-    color: #fff;
+    color: $main-color;
     text-transform: uppercase;
     border-bottom: 3px transparent solid;
     padding-bottom: 0.5rem;
     transition: border-color 0.5s;
 
     &:hover {
-      border-color: $medium-color;
+      border-color: $light-color;
     }
 
     &.current {
@@ -85,7 +87,7 @@ img {
   &-home {
     background: $bg-image no-repeat center right / cover;
     height: 100vh;
-    color: #fff;
+    color: $dark-color;
 
     // Header Content
     .header-content {
@@ -95,6 +97,9 @@ img {
       h1 {
         font-size: 4rem;
         line-height: 1.2;
+      }
+      p {
+        font-size: 2.5rem;
       }
     }
   }
@@ -233,16 +238,23 @@ img {
       padding: 0.8rem;
     }
 
+    .bio p {
+      padding-bottom: 1.5rem;
+    }
+
     .award-1 {
       grid-area: aw1;
+      padding-top: 2rem;
     }
 
     .award-2 {
       grid-area: aw2;
+      padding-top: 2rem;
     }
 
     .award-3 {
       grid-area: aw3;
+      padding-top: 2rem;
     }
 
     .award-1 .fas,
@@ -394,6 +406,10 @@ img {
       }
     }
   }
+}
+
+#about-a a:hover {
+  color: $main-color;
 }
 
 // Import Media Queries

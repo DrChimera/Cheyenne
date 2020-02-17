@@ -1,16 +1,16 @@
 // Variables
 $website-width: 1280px;
-$main-color: #ffbc00;
+$main-color: rgb(230, 62, 62);
 $light-color: #f4f4f4;
-$medium-color: #ccc;
-$dark-color: #333;
-$bg-image: url('../img/showcase.jpg');
+$medium-color: #810a0a;
+$dark-color: #810a0a;
+$bg-image: url("../img/Desktop-WhiteTreeBySea-Clix.jpg");
 
 // Set Text Color
 @function set-text-color($color) {
   @if (lightness($color) > 50) {
-    @return #000;
+    @return rgb(129, 10, 10);
   } @else {
-    @return #fff;
+    @return rgb(129, 10, 10);
   }
 }

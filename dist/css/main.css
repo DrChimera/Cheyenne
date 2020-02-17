@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css?family=Kaushan+Script|Permanent+Marker&display=swap");
 .container {
   max-width: 1280px;
   padding: 0 1.5rem;
@@ -13,7 +14,7 @@
 
 .btn-main {
   color: #333;
-  background-color: #ffbc00; }
+  background-color: #e63e3e; }
 
 .btn-light {
   color: #333;
@@ -21,28 +22,28 @@
 
 .btn-dark {
   color: #f4f4f4;
-  background-color: #333; }
+  background-color: #810a0a; }
 
-button[class^='btn-']:hover,
-a[class^='btn-']:hover,
-input[class^='btn-']:hover {
-  background-color: #ffbc00; }
+button[class^="btn-"]:hover,
+a[class^="btn-"]:hover,
+input[class^="btn-"]:hover {
+  background-color: #e63e3e; }
 
 .bg-main {
-  background: #ffbc00;
-  color: #fff; }
+  background: #e63e3e;
+  color: #810a0a; }
 
 .bg-dark {
-  background: #333;
-  color: #fff; }
+  background: #810a0a;
+  color: #810a0a; }
 
 .bg-light {
   background: #f4f4f4;
-  color: #000; }
+  color: #810a0a; }
 
 .bg-medium {
-  background: #ccc;
-  color: #000; }
+  background: #810a0a;
+  color: #810a0a; }
 
 .lead {
   font-size: 1.3rem;
@@ -86,7 +87,7 @@ input[class^='btn-']:hover {
 .bottom-line {
   height: 2px;
   width: 3rem;
-  background: #ffbc00;
+  background: #e63e3e;
   display: block;
   margin: 0 auto 1rem auto; }
 
@@ -97,7 +98,7 @@ input[class^='btn-']:hover {
 
 .item {
   position: relative;
-  background: #ffbc00;
+  background: #e63e3e;
   overflow: hidden; }
   .item::after {
     content: '';
@@ -168,13 +169,13 @@ input[class^='btn-']:hover {
   padding: 0; }
 
 body {
-  font-family: "Dosis", sans-serif;
+  font-family: "Kaushan Script", cursive;
   line-height: 1.6;
   background: #fff; }
 
 a {
   text-decoration: none;
-  color: #333; }
+  color: #810a0a; }
 
 ul {
   list-style: none; }
@@ -188,9 +189,9 @@ img {
   width: 100%; }
 
 #logo {
-  width: 70px;
-  height: 70px;
-  color: #fff;
+  width: 214px;
+  height: 72px;
+  color: #810a0a;
   text-transform: uppercase; }
 
 #monogram {
@@ -198,6 +199,7 @@ img {
   font-size: 3.5rem; }
 
 #main-nav {
+  font-family: "Permanent Marker", cursive;
   display: flex;
   justify-content: space-between;
   padding-top: 1rem; }
@@ -207,31 +209,33 @@ img {
     padding: 1rem 1.5rem; }
   #main-nav a {
     text-decoration: none;
-    color: #fff;
+    color: #e63e3e;
     text-transform: uppercase;
     border-bottom: 3px transparent solid;
     padding-bottom: 0.5rem;
     transition: border-color 0.5s; }
     #main-nav a:hover {
-      border-color: #ccc; }
+      border-color: #f4f4f4; }
     #main-nav a.current {
-      border-color: #ffbc00; }
+      border-color: #e63e3e; }
 
 #header-home {
-  background: url("../img/showcase.jpg") no-repeat center right/cover;
+  background: url("../img/Desktop-WhiteTreeBySea-Clix.jpg") no-repeat center right/cover;
   height: 100vh;
-  color: #fff; }
+  color: #810a0a; }
   #header-home .header-content {
     text-align: center;
     padding-top: 20%; }
     #header-home .header-content h1 {
       font-size: 4rem;
       line-height: 1.2; }
+    #header-home .header-content p {
+      font-size: 2.5rem; }
 
 #header-inner {
-  background: url("../img/showcase.jpg") no-repeat 20% 30%/cover;
+  background: url("../img/Desktop-WhiteTreeBySea-Clix.jpg") no-repeat 20% 30%/cover;
   height: 5.5rem;
-  border-bottom: 3px solid #ffbc00; }
+  border-bottom: 3px solid #e63e3e; }
 
 #home-a .specials {
   margin-top: 3rem;
@@ -239,7 +243,7 @@ img {
   grid-gap: 1rem;
   grid-template-columns: repeat(4, 1fr); }
   #home-a .specials .fas {
-    color: #ffbc00;
+    color: #e63e3e;
     padding-bottom: 0.4rem; }
 
 #home-b .stats {
@@ -257,7 +261,7 @@ img {
     #home-b .stats div:nth-child(odd) {
       background: #f4f4f4; }
     #home-b .stats div:nth-child(even) {
-      background: #ccc; }
+      background: #810a0a; }
 
 #home-c .process {
   display: grid;
@@ -269,8 +273,8 @@ img {
     top: 0;
     right: 0;
     font-size: 28px;
-    background: #ffbc00;
-    color: #fff;
+    background: #e63e3e;
+    color: #810a0a;
     border-radius: 50%;
     height: 15px;
     width: 15px;
@@ -279,8 +283,8 @@ img {
     transition: all 1s; }
   #home-c .process-icon {
     border-radius: 50%;
-    background: #333;
-    color: #fff;
+    background: #810a0a;
+    color: #810a0a;
     padding: 2rem;
     width: 70px;
     height: 70px;
@@ -289,13 +293,13 @@ img {
     position: relative;
     transition: all 1s; }
     #home-c .process-icon:hover {
-      background: #ffbc00;
+      background: #e63e3e;
       width: 90px;
       height: 90px;
       line-height: 90px; }
       #home-c .process-icon:hover .process-step {
-        background: #333;
-        color: #fff; }
+        background: #810a0a;
+        color: #810a0a; }
 
 #about-a .about-info {
   display: grid;
@@ -307,35 +311,41 @@ img {
 
 #about-a .bio {
   grid-area: bio;
-  border-left: 3px solid #ffbc00;
+  border-left: 3px solid #e63e3e;
   padding: 0.8rem; }
 
+#about-a .bio p {
+  padding-bottom: 1.5rem; }
+
 #about-a .award-1 {
-  grid-area: aw1; }
+  grid-area: aw1;
+  padding-top: 2rem; }
 
 #about-a .award-2 {
-  grid-area: aw2; }
+  grid-area: aw2;
+  padding-top: 2rem; }
 
 #about-a .award-3 {
-  grid-area: aw3; }
+  grid-area: aw3;
+  padding-top: 2rem; }
 
 #about-a .award-1 .fas,
 #about-a .award-2 .fas,
 #about-a .award-3 .fas {
-  color: #ffbc00;
+  color: #e63e3e;
   margin: 1rem; }
 
 #about-b .progress {
   overflow: hidden;
   height: 20px;
-  background: #ccc;
+  background: #810a0a;
   border-radius: 5px;
   margin-bottom: 0.6rem; }
   #about-b .progress div {
     height: 100%;
     color: #fff;
     text-align: center;
-    background: #ffbc00; }
+    background: #e63e3e; }
 
 #about-c .about-logos {
   display: grid;
@@ -354,7 +364,7 @@ img {
     display: flex;
     align-items: center; }
   #about-d .testimonials p {
-    border: 1px solid #ccc;
+    border: 1px solid #810a0a;
     border-radius: 5px;
     padding: 0.5rem; }
   #about-d .testimonials img {
@@ -395,7 +405,7 @@ img {
   font-size: 4rem; }
 
 #main-footer {
-  background: #333;
+  background: #810a0a;
   color: #fff;
   height: 5rem; }
   #main-footer .footer-content {
@@ -413,7 +423,10 @@ img {
       text-align: center;
       padding: 0.5rem; }
       #main-footer .footer-content .social .fab:hover {
-        background: #ffbc00; }
+        background: #e63e3e; }
+
+#about-a a:hover {
+  color: #e63e3e; }
 
 @media (max-width: 800px) {
   #header-home {
@@ -429,7 +442,7 @@ img {
       padding: 1rem; }
   #header-home {
     height: 10rem;
-    border-bottom: 3px solid #ffbc00;
+    border-bottom: 3px solid #e63e3e;
     background-position: 20% 30%; }
     #header-home .header-content {
       display: none; }
